@@ -1,0 +1,55 @@
+body{
+	font-family:Arial,sans-serif;
+	padding:0;
+	margin:0;
+	background-color: cream;
+	color:black;
+}
+header{
+	  display: flex;
+	  color: white;
+	  padding: 15px 20px;
+	  background-color: tan;
+	  justify-content: space between;
+	  align-items: centre;
+}
+
+footer{
+	background:tan;
+	color:white;
+	text-align:centre;
+	padding:15px;
+	margin-top:20px;
+}
+
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+	color:brown;
+}
+.td{
+	width:50%
+}
+
+img{
+	transition:transform 0.4s ease-in-out;
+}
+img:hover{
+	transform:scale(1.1);
+}
+a{
+	color:brown;
+}
+
+/*Tablets*/
+ @media screen and (max-width:768px)
+ 
+/*smartphones*/
+@media screen(max-width:480px)
+{
+ header{
+	 flex-direction:column;
+	 text-align:centre;
+ }
+ 
+}
